@@ -34,7 +34,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
                 <TextBlock Text="Случайность:" VerticalAlignment="Center" Width="100"/>
-                <TextBox Name="RandomnessInput" Text="0.8" Width="50" />
+                <TextBox Name="RandomnessInput" Text="0,8" Width="50" />
             </StackPanel>
             <Button Name="GenerateButton" Content="Сгенерировать" Click="GenerateButton_Click" />
         </StackPanel>

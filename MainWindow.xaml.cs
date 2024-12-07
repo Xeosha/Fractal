@@ -1,14 +1,7 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
+﻿using System.Windows;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Windows.Media.Media3D;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace Fractal
 {
@@ -45,7 +38,7 @@ namespace Fractal
         {
             if (height < 0.3) return Colors.Blue;          // Вода
             if (height < 0.4) return Colors.SandyBrown;    // Песок
-            if (height < 0.6) return Colors.Green;         // Трава
+            if (height < 0.75) return Colors.Green;         // Трава
             return Colors.Gray;                            // Горы
         }
 
